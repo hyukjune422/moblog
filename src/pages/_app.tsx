@@ -4,7 +4,7 @@ import { RootLayout } from "src/layouts"
 import { queryClient } from "src/libs/react-query"
 
 function App({ Component, pageProps }: AppPropsWithLayout) {
-  const getLayout = Component.getLayout || ((page) => page)
+  const getLayout = Component.getLayout || ((page) => <RootLayout>{page}</RootLayout>);
 
   return (
     <QueryClientProvider client={queryClient}>
