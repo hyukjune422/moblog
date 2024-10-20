@@ -1,5 +1,6 @@
-// src/components/Logo.tsx
+// src/layouts/RootLayout/Header/Logo.tsx
 import DropdownMenu from './DropdownMenu'; 
+import { StyledWrapper } from './path/to/StyledWrapper'; // Update with the correct path
 
 const Logo = () => {
   return (
