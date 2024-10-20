@@ -1,15 +1,12 @@
-import Link from "next/link"
-import { CONFIG } from "site.config"
-import styled from "@emotion/styled"
+// src/components/Logo.tsx
+import DropdownMenu from './DropdownMenu'; 
 
 const Logo = () => {
   return (
-    <StyledWrapper href="/" aria-label={CONFIG.blog.title}>
-      {CONFIG.blog.title}
+    <StyledWrapper>
+      <DropdownMenu />
     </StyledWrapper>
-  )
-}
+  );
+};
 
-export default Logo
-
-const StyledWrapper = styled(Link)``
+export default Logo;
