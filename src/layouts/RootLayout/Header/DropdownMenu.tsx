@@ -2,7 +2,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import styled from '@emotion/styled';
 import Link from 'next/link';
-import { useDropdown } from "src/hooks/useDropdown";
+import useDropdown from "src/hooks/useDropdown";
 import { CONFIG } from 'site.config';
 import { StyledDropdown } from './path/to/StyledDropdown'; // Update with correct path
 
